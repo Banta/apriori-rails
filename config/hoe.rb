@@ -1,10 +1,15 @@
+#"Note: The original author is Nate, Bernard Banta modified a minor things and bugs in this gem in order
+# for it to work with latest version of dependencies gems and rails. All credits should go to Nate."
+# - Bernard Banta
+
 require 'apriori/version'
 
-AUTHOR = 'Nate Murray'  # can also be an array of Authors
-EMAIL = "nate@natemurray.com"
+AUTHOR = ['Nate Murray', 'Bernard Banta']  # can also be an array of Authors
+EMAIL = ["nate@natemurray.com", "banta.bernard@gmail.com"]
+
 DESCRIPTION = "Ruby Apriori is a library to efficiently find item association rules within large sets of transactions."
-GEM_NAME = 'apriori' # what ppl will type to install your gem
-RUBYFORGE_PROJECT = 'apriori' # The unix name for your project
+GEM_NAME = 'apriori-rails' # what ppl will type to install your gem
+RUBYFORGE_PROJECT = 'apriori-rails' # The unix name for your project
 HOMEPATH = "http://#{RUBYFORGE_PROJECT}.rubyforge.org"
 DOWNLOAD_PATH = "http://rubyforge.org/projects/#{RUBYFORGE_PROJECT}"
 EXTRA_DEPENDENCIES = [
