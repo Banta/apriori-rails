@@ -9,7 +9,7 @@ EMAIL = ["nate@natemurray.com", "banta.bernard@gmail.com"]
 
 DESCRIPTION = "Ruby Apriori is a library to efficiently find item association rules within large sets of transactions."
 GEM_NAME = 'apriori-rails' # what ppl will type to install your gem
-RUBYFORGE_PROJECT = 'apriori-rails' # The unix name for your project
+RUBYFORGE_PROJECT = 'apriori' # The unix name for your project
 HOMEPATH = "http://#{RUBYFORGE_PROJECT}.rubyforge.org"
 DOWNLOAD_PATH = "http://rubyforge.org/projects/#{RUBYFORGE_PROJECT}"
 EXTRA_DEPENDENCIES = [
