@@ -14,10 +14,10 @@ HOMEPATH = "http://#{RUBYFORGE_PROJECT}.rubyforge.org"
 DOWNLOAD_PATH = "http://rubyforge.org/projects/#{RUBYFORGE_PROJECT}"
 EXTRA_DEPENDENCIES = [
 #  ['activesupport', '>= 1.3.1']
-  ['rake', '>= 0.0.0'],
-  ['hoe', '>= 0.0.0'], 
-  ['newgem', '>= 0.0.0'],
-  ['rubigen', '>= 0.0.0']
+  ['rake', '>= 0.9.2.2'],
+  ['hoe', '>= 3.6.0'], 
+  ['newgem', '>= 1.5.3'],
+  ['rubigen', '>= 1.5.8']
 ]    # An array of rubygem dependencies [name, version]
 
 @config_file = "~/.rubyforge/user-config.yml"
