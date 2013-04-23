@@ -1,5 +1,5 @@
-require 'config/requirements'
-require 'config/hoe' # setup Hoe + all gem configuration
+require 'config/requirements.rb'
+require 'config/hoe.rb' # setup Hoe + all gem configuration
 
 class Rake::Task
   def abandon
