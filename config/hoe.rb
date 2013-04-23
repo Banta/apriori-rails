@@ -10,7 +10,7 @@ DOWNLOAD_PATH = "http://rubyforge.org/projects/#{RUBYFORGE_PROJECT}"
 EXTRA_DEPENDENCIES = [
 #  ['activesupport', '>= 1.3.1']
   ['rake', '>= 0.0.0'],
-  ['hoe', '1.7.0'], 
+  ['hoe', '>= 0.0.0'], 
   ['newgem', '>= 0.0.0'],
   ['rubigen', '>= 0.0.0']
 ]    # An array of rubygem dependencies [name, version]
