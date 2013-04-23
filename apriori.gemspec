@@ -28,17 +28,17 @@ Gem::Specification.new do |s|
       s.add_runtime_dependency(%q<rake>, [">= 0.0.0"])
       s.add_runtime_dependency(%q<newgem>, [">= 0.0.0"])
       s.add_runtime_dependency(%q<rubigen>, [">= 0.0.0"])
-      s.add_development_dependency(%q<hoe>, ["1.7.0"])
+      s.add_development_dependency(%q<hoe>, [">= 2.3.3"])
     else
       s.add_dependency(%q<rake>, [">= 0.0.0"])
       s.add_dependency(%q<newgem>, [">= 0.0.0"])
       s.add_dependency(%q<rubigen>, [">= 0.0.0"])
-      s.add_dependency(%q<hoe>, ["1.7.0"])
+      s.add_dependency(%q<hoe>, [">= 2.3.3"])
     end
   else
     s.add_dependency(%q<rake>, [">= 0.0.0"])
     s.add_dependency(%q<newgem>, [">= 0.0.0"])
     s.add_dependency(%q<rubigen>, [">= 0.0.0"])
-    s.add_dependency(%q<hoe>, ["1.7.0"])
+    s.add_dependency(%q<hoe>, [">= 2.3.3"])
   end
 end
