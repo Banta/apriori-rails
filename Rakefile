@@ -1,5 +1,7 @@
-require 'config/requirements.rb'
-require 'config/hoe.rb' # setup Hoe + all gem configuration
+#!/usr/bin/env rake
+
+require File.expand_path('../config/requirements', __FILE__)
+require File.expand_path('../config/hoe', __FILE__) # setup Hoe + all gem configuration
 
 class Rake::Task
   def abandon
