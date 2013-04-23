@@ -1,10 +1,10 @@
 Gem::Specification.new do |s|
   s.name = %q{apriori-rails}
-  s.version = "0.2.4"
+  s.version = "0.2.4.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Nate Murray", "Bernard Banta"]
-  s.date = %q{2009-08-19}
+  s.date = %q{2013-04-19}
   s.summary = %q{Ruby Apriori is a library to efficiently find item association rules within large sets of transactions.}
   s.description = %q{Ruby Apriori is a library to efficiently find item association rules within large sets of transactions. This gem currently works efficiently with ruby 1.8.7.}
   s.email = ["nate@natemurray.com", "banta.bernard@gmail"]
